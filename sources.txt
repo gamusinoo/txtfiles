@@ -1,1 +1,2 @@
-https://github.com/gamusinoo/txtfiles.git 30af65af14a2dce962df923446afff24dd8f123e
+https://github.com/gamusinoo/txtfiles.git 850a9fa7e2a16db3bd606e7883bacf1f635358fb
+https://github.com/gamusinoo/txtfiles.git 549ad4e3e51bf7606f3a2f47ecfc718d3d56ef24
