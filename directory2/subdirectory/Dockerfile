@@ -1,5 +1,11 @@
 FROM alpine:%%ALPINE_VERSION%%
 
+ 	  FROM    node:18-alpine   AS 	 depedro
+#FROM --platform linux/arm/v7 node:19-alpine
+       FROM   --platform linux/arm/v7    node:20-alpine
+FROM  --platform linux/arm/v7	node:21-alpine AS  ialonso
+FROM  --platform=$BUILDPLATFORM	node:21-alpine AS  ialonso
+
 LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
 
 ENV NGINX_VERSION %%NGINX_VERSION%%
